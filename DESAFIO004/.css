@@ -62,7 +62,7 @@ article > p {
 }
 #t2>p {
     background-color: rgba(0, 0, 0, 0.584);
-    background-position: bottom center;
+    background-position: left;
     max-width: 350px;
     text-align: left;
     margin: auto;
