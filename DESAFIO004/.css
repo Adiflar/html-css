@@ -58,26 +58,29 @@ article > p {
 }
 
 #t2{
-    
+    background-color: black;
    background-image: url(imagens/background001.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: right center;
    background-attachment: fixed;
-   background-size: 100% 100%;
+   box-shadow: 1px 1px 10px black;
   
-    
-   position: relative;
-   height:96vh;
-   
-   padding: 10px;
+  
 }
+    
+   
+   
+  
 #t2>p {
     background-color: rgba(0, 0, 0, 0.584);
     color: aliceblue;
     display: inline-block;
     padding: 5px;
     width: 400px;
-
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.639);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.725);
+    margin-left: -5px;
 }
 
 #t3{
@@ -93,9 +96,26 @@ article > p {
 }
 
 #t5{
+    background-color: black;
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: 2px 2px 10px black;
     
-  
+}
+#t5 >p {
+    background-color: rgba(0, 0, 0, 0.584);
+    background-position: left center;
+    color: aliceblue;
+    display: inline-block;
     
+    margin-left: -0px;
+    padding: 5px;
+    width: 400px;
+    box-shadow: 2px 2px 10px black;
+
 }
 
 #t6{
@@ -113,8 +133,10 @@ article > p {
 
 
 footer{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:cursive;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.706);
+    color: antiquewhite;
     
 }
 
