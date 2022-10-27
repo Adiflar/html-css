@@ -1,4 +1,9 @@
 @charset "UTF-08"
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 
 
 main{
@@ -11,7 +16,7 @@ main{
 
     position: relative;
     height:96vh;
-    background-color: rgb(244, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 header{
@@ -21,23 +26,28 @@ header{
     margin: -10px -10px;
     padding: 50px;
     border: 2px solid rgb(0, 0, 0);
+   
 }
 header > h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
 }
 article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     margin-bottom: 290px;
     margin-top: 150px;
 }
 article > p {
     text-indent: 10px;
     text-align: left;
-    font-size: 40px;
+    
     
     padding: 15px;
     margin: 50px;
     width: 250px;
     height: 200px;
+    font-size: 4vw;
 }
 
 
@@ -54,7 +64,8 @@ article > p {
    background-size: cover;
    background-attachment: fixed;
    background-size: 100% 100%;
-
+  
+    
    position: relative;
    height:96vh;
    
@@ -62,26 +73,11 @@ article > p {
 }
 #t2>p {
     background-color: rgba(0, 0, 0, 0.584);
-    background-position: left;
-    max-width: 350px;
-    text-align: left;
-    margin: auto;
-  
     color: aliceblue;
-    padding-bottom:30%;
-
-
-    height: 200px;
+    display: inline-block;
+    padding: 5px;
     width: 400px;
 
-
-    background-size: 100% 100%;
-
-    position: absolute;
-    left:50% ;
-    top: 50%;     
-    transform: translate(-50%, -50%);
- 
 }
 
 #t3{
@@ -118,5 +114,7 @@ article > p {
 
 footer{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
 }
 
