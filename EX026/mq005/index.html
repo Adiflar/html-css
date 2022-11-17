@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="mediaQuery.css" media="screen">
 </head>
 <body>
     <header>
-        <menu>
+        <h1>Meu Site</h1>
+        <span id="imenu" class="material-symbols-outlined" onclick="clikMenu()">
+            menu
+            </span>
+        <menu id="itens">
+            
             <ul>
                 <li><a href="#">Opção1</a></li>
                 <li><a href="#">Opção2</a></li>
@@ -22,6 +29,7 @@
     </header>
     <main>
         <article>
+            <h2>Testanto mediaQuery</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, recusandae. Optio vitae debitis quibusdam fugiat? Molestiae quis minima placeat aliquam at? Provident molestias praesentium accusantium, quisquam inventore dignissimos ipsum! Enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sunt quia fugiat repellendus dicta veritatis porro exercitationem voluptatem explicabo, cum perferendis ex voluptas nemo deserunt totam necessitatibus beatae repudiandae aliquam.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, eum. Sint, reprehenderit error? Eaque, facilis. Dolor, veritatis aliquid voluptas a, repudiandae odio, sapiente facere nisi esse officia velit nostrum non.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia, laudantium a velit necessitatibus sapiente, illum architecto dolorem error soluta impedit eius. Labore harum aliquam provident facere in, repudiandae enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, aliquid nisi libero, magni laborum, odit dignissimos distinctio ex adipisci velit cum fugit quisquam repellat? Repellendus reprehenderit tenetur nihil explicabo a?</p>
@@ -32,5 +40,14 @@
 
 
     </main>
+    <script>
+        function clikMenu() {
+            if (itens.style.display == 'none') {
+             itens.style.display = 'block';
+             } else {
+              itens.style.display = 'none';
+                   }
+              }
+    </script>
 </body>
 </html>
