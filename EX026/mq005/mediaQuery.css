@@ -21,10 +21,8 @@ Pequenas Telas até 600px:
     menu > ul > li {
         display: inline-block;
     }
-}
 
-main {
-  
-    width: 768px;
-
+    main{
+        width: 770px;
+    }
 }
