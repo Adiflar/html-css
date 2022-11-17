@@ -9,30 +9,9 @@ Pequenas Telas:
     Desktop: 992px até 1200px
 -------------------------------------
 Grandes Telas: Acima de 1200px  */
-@media print {/*Impressão*/ 
-    *{
-        font-family: 'Courier New', Courier, monospace;
-    }
-
-    body{
-        background-image:url(back-print.jpg) ;
-    }
-    main{
-        border: 2px solid black;
-    }
-
-    main h1 {text-shadow: none;
-        color: black;
-    }
-
-    img#phone{ display: none; }
-    img#tablet{display: none;}
-    img#print{display: block;}
-    img#pc{display: none;}
-    img#tv{display: none;}
 
 
-}
+
 @media print {/*Impressão*/ 
     *{
         font-family: 'Courier New', Courier, monospace;
