@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
 /*Versão Mobile First*/
+/* Typical Device Breakpoints 
+Pequenas Telas:    
+    celular: de 600px até 768px
+    Tablet: 768px ate 992 
+    Desktop: 992px até 1200px
+-------------------------------------
+Grandes Telas: Acima de 1200px  */
+
 
 
 *{
